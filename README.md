@@ -4,24 +4,24 @@ Yii 2 [Font Awesome](http://fortawesome.github.io/Font-Awesome/) Asset Bundle
 This extension provides a assets bundle with [Font Awesome](https://fontawesome.com/)
 for [Yii framework 2.0](http://www.yiiframework.com/) applications and helper to use icons.
 
-For license information check the [LICENSE](https://github.com/rmrevin/yii2-fontawesome/blob/master/LICENSE)-file.
+For license information check the [LICENSE](https://github.com/micheleraso/yii2-fontawesome/blob/master/LICENSE)-file.
 
-[![License](https://poser.pugx.org/rmrevin/yii2-fontawesome/license.svg)](https://packagist.org/packages/rmrevin/yii2-fontawesome)
-[![Latest Stable Version](https://poser.pugx.org/rmrevin/yii2-fontawesome/v/stable.svg)](https://packagist.org/packages/rmrevin/yii2-fontawesome)
-[![Latest Unstable Version](https://poser.pugx.org/rmrevin/yii2-fontawesome/v/unstable.svg)](https://packagist.org/packages/rmrevin/yii2-fontawesome)
-[![Total Downloads](https://poser.pugx.org/rmrevin/yii2-fontawesome/downloads.svg)](https://packagist.org/packages/rmrevin/yii2-fontawesome)
+[![License](https://poser.pugx.org/micheleraso/yii2-fontawesome/license.svg)](https://packagist.org/packages/micheleraso/yii2-fontawesome)
+[![Latest Stable Version](https://poser.pugx.org/micheleraso/yii2-fontawesome/v/stable.svg)](https://packagist.org/packages/micheleraso/yii2-fontawesome)
+[![Latest Unstable Version](https://poser.pugx.org/micheleraso/yii2-fontawesome/v/unstable.svg)](https://packagist.org/packages/micheleraso/yii2-fontawesome)
+[![Total Downloads](https://poser.pugx.org/micheleraso/yii2-fontawesome/downloads.svg)](https://packagist.org/packages/micheleraso/yii2-fontawesome)
 
 Code Status
 -----------
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rmrevin/yii2-fontawesome/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/rmrevin/yii2-fontawesome/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/rmrevin/yii2-fontawesome/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/rmrevin/yii2-fontawesome/?branch=master)
-[![Travis CI Build Status](https://travis-ci.org/rmrevin/yii2-fontawesome.svg)](https://travis-ci.org/rmrevin/yii2-fontawesome)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/micheleraso/yii2-fontawesome/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/micheleraso/yii2-fontawesome/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/micheleraso/yii2-fontawesome/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/micheleraso/yii2-fontawesome/?branch=master)
+[![Travis CI Build Status](https://travis-ci.org/micheleraso/yii2-fontawesome.svg)](https://travis-ci.org/micheleraso/yii2-fontawesome)
 [![Dependency Status](https://www.versioneye.com/user/projects/54119b799e16229fe00000da/badge.svg)](https://www.versioneye.com/user/projects/54119b799e16229fe00000da)
 
 Support
 -------
-* [GutHub issues](https://github.com/rmrevin/yii2-fontawesome/issues)
-* [Public chat](https://gitter.im/rmrevin/support)
+* [GutHub issues](https://github.com/micheleraso/yii2-fontawesome/issues)
+* [Public chat](https://gitter.im/micheleraso/support)
 
 Fontawesome version
 -------------------
@@ -33,17 +33,17 @@ Fontawesome version
 Update to `3.2`
 ---------------
 
-Be careful in version 3.2 `rmrevin\yii\fontawesome\AssetBundle` package use cdn by default. More in the [changelog](https://github.com/rmrevin/yii2-fontawesome/blob/master/CHANGELOG.md).
+Be careful in version 3.2 `micheleraso\yii\fontawesome\AssetBundle` package use cdn by default. More in the [changelog](https://github.com/micheleraso/yii2-fontawesome/blob/master/CHANGELOG.md).
 
 Update to `3.0`
 ---------------
 
-Be careful in version 3.0 deprecated methods were removed. More in the [changelog](https://github.com/rmrevin/yii2-fontawesome/blob/master/CHANGELOG.md).
+Be careful in version 3.0 deprecated methods were removed. More in the [changelog](https://github.com/micheleraso/yii2-fontawesome/blob/master/CHANGELOG.md).
 
 Update to `2.17`
 ----------------
 
-Be careful in version 2.17 deprecated methods were removed. More in the [changelog](https://github.com/rmrevin/yii2-fontawesome/blob/2.x/CHANGELOG.md).
+Be careful in version 2.17 deprecated methods were removed. More in the [changelog](https://github.com/micheleraso/yii2-fontawesome/blob/2.x/CHANGELOG.md).
 
 Installation
 ------------
@@ -53,13 +53,13 @@ The preferred way to install this extension is through [composer](https://getcom
 Either run
 
 ```bash
-composer require "rmrevin/yii2-fontawesome:~3.5"
+composer require "micheleraso/yii2-fontawesome:~3.5"
 ```
 
 or add
 
 ```
-"rmrevin/yii2-fontawesome": "~3.5",
+"micheleraso/yii2-fontawesome": "~3.5",
 ```
 
 to the `require` section of your `composer.json` file.
@@ -78,7 +78,7 @@ class AppAsset extends AssetBundle
 
 	public $depends = [
 		// ...
-		'rmrevin\yii\fontawesome\CdnProAssetBundle'
+		'micheleraso\yii\fontawesome\CdnProAssetBundle'
 	];
 }
 
@@ -87,7 +87,7 @@ class AppAsset extends AssetBundle
 Or inject `CdnProAssetBundle` in your view:
 
 ```php
-\rmrevin\yii\fontawesome\CdnProAssetBundle::register($this);
+\micheleraso\yii\fontawesome\CdnProAssetBundle::register($this);
 ```
 
 ### NPM
@@ -108,7 +108,7 @@ class AppAsset extends AssetBundle
 
 	public $depends = [
 		// ...
-		'rmrevin\yii\fontawesome\NpmProAssetBundle'
+		'micheleraso\yii\fontawesome\NpmProAssetBundle'
 	];
 }
 
@@ -117,7 +117,7 @@ class AppAsset extends AssetBundle
 Or inject `NpmProAssetBundle` in your view:
 
 ```php
-rmrevin\yii\fontawesome\NpmProAssetBundle::register($this);
+micheleraso\yii\fontawesome\NpmProAssetBundle::register($this);
 ```
 
 ### Optional
@@ -142,7 +142,7 @@ class AppAsset extends AssetBundle
 
 	public $depends = [
 		// ...
-		'rmrevin\yii\fontawesome\CdnFreeAssetBundle'
+		'micheleraso\yii\fontawesome\CdnFreeAssetBundle'
 	];
 }
 
@@ -151,7 +151,7 @@ class AppAsset extends AssetBundle
 Or inject `CdnFreeAssetBundle` in your view:
 
 ```php
-rmrevin\yii\fontawesome\CdnFreeAssetBundle::register($this);
+micheleraso\yii\fontawesome\CdnFreeAssetBundle::register($this);
 ```
 
 # Composer
@@ -166,7 +166,7 @@ class AppAsset extends AssetBundle
 
 	public $depends = [
 		// ...
-		'rmrevin\yii\fontawesome\NpmFreeAssetBundle'
+		'micheleraso\yii\fontawesome\NpmFreeAssetBundle'
 	];
 }
 
@@ -175,13 +175,13 @@ class AppAsset extends AssetBundle
 Or inject `NpmFreeAssetBundle` in your view:
 
 ```php
-rmrevin\yii\fontawesome\NpmFreeAssetBundle::register($this);
+micheleraso\yii\fontawesome\NpmFreeAssetBundle::register($this);
 ```
 
 Class reference
 ---------------
 
-Namespace: `rmrevin\yii\fontawesome`;
+Namespace: `micheleraso\yii\fontawesome`;
 
 ### Class `FAB`, `FAL`, `FAR`, `FAS` or `FontAwesome`
 
@@ -225,11 +225,11 @@ Helper examples
 ---------------
 
 ```php
-use rmrevin\yii\fontawesome\FAS;
+use micheleraso\yii\fontawesome\FAS;
 // or (only in pro version https://fontawesome.com/pro)
-// use rmrevin\yii\fontawesome\FAR;
-// use rmrevin\yii\fontawesome\FAL;
-// use rmrevin\yii\fontawesome\FAB;
+// use micheleraso\yii\fontawesome\FAR;
+// use micheleraso\yii\fontawesome\FAL;
+// use micheleraso\yii\fontawesome\FAB;
 
 // normal use
 echo FAS::icon('home'); // <i class="fas fa-home"></i>

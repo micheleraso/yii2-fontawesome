@@ -1,15 +1,15 @@
 <?php
 /**
  * NpmFreeAssetBundle.php
- * @author Revin Roman
- * @link https://rmrevin.ru
+ * @author Michele Raso
+ * @link httpw://www.micheleraso.com
  */
 
-namespace rmrevin\yii\fontawesome;
+namespace micheleraso\yii\fontawesome;
 
 /**
  * Class NpmFreeAssetBundle
- * @package rmrevin\yii\fontawesome
+ * @package micheleraso\yii\fontawesome
  */
 class NpmFreeAssetBundle extends \yii\web\AssetBundle
 {

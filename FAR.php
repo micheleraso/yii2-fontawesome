@@ -1,15 +1,15 @@
 <?php
 /**
  * FAR.php
- * @author Revin Roman
- * @link https://rmrevin.ru
+ * @author Michele Raso
+ * @link httpw://www.micheleraso.com
  */
 
-namespace rmrevin\yii\fontawesome;
+namespace micheleraso\yii\fontawesome;
 
 /**
  * Class FAR
- * @package rmrevin\yii\fontawesome
+ * @package micheleraso\yii\fontawesome
  */
 class FAR extends FontAwesome
 {

@@ -1,15 +1,15 @@
 <?php
 /**
  * CdnFreeAssetBundle.php
- * @author Revin Roman
- * @link https://rmrevin.ru
+ * @author Michele Raso
+ * @link httpw://www.micheleraso.com
  */
 
-namespace rmrevin\yii\fontawesome;
+namespace micheleraso\yii\fontawesome;
 
 /**
  * Class CdnFreeAssetBundle
- * @package rmrevin\yii\fontawesome
+ * @package micheleraso\yii\fontawesome
  */
 class CdnFreeAssetBundle extends \yii\web\AssetBundle
 {
@@ -17,6 +17,6 @@ class CdnFreeAssetBundle extends \yii\web\AssetBundle
      * @inherit
      */
     public $css = [
-        'https://use.fontawesome.com/releases/v5.15.1/css/all.css',
+        'https://use.fontawesome.com/releases/v5.15.4/css/all.css',
     ];
 }

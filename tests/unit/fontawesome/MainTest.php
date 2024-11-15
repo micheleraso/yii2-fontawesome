@@ -1,35 +1,35 @@
 <?php
 /**
  * MainTest.php
- * @author Revin Roman
- * @link https://rmrevin.ru
+ * @author Michele Raso
+ * @link httpw://www.micheleraso.com
  */
 
-namespace rmrevin\yii\fontawesome\tests\unit\fontawesome;
+namespace micheleraso\yii\fontawesome\tests\unit\fontawesome;
 
-use rmrevin\yii\fontawesome\component\Icon;
-use rmrevin\yii\fontawesome\FAR;
-use rmrevin\yii\fontawesome\FontAwesome;
+use micheleraso\yii\fontawesome\component\Icon;
+use micheleraso\yii\fontawesome\FAR;
+use micheleraso\yii\fontawesome\FontAwesome;
 
 /**
  * Class MainTest
- * @package rmrevin\yii\fontawesome\tests\unit\fontawesome
+ * @package micheleraso\yii\fontawesome\tests\unit\fontawesome
  */
-class MainTest extends \rmrevin\yii\fontawesome\tests\unit\TestCase
+class MainTest extends \micheleraso\yii\fontawesome\tests\unit\TestCase
 {
 
     public function testMain()
     {
-        $this->assertInstanceOf('rmrevin\yii\fontawesome\FAR', new FAR());
-        $this->assertInstanceOf('rmrevin\yii\fontawesome\FontAwesome', new FAR());
+        $this->assertInstanceOf('micheleraso\yii\fontawesome\FAR', new FAR());
+        $this->assertInstanceOf('micheleraso\yii\fontawesome\FontAwesome', new FAR());
 
-        $this->assertInstanceOf('rmrevin\yii\fontawesome\FontAwesome', new FontAwesome());
+        $this->assertInstanceOf('micheleraso\yii\fontawesome\FontAwesome', new FontAwesome());
 
         $Icon = FAR::icon('cog');
-        $this->assertInstanceOf('rmrevin\yii\fontawesome\component\Icon', $Icon);
+        $this->assertInstanceOf('micheleraso\yii\fontawesome\component\Icon', $Icon);
 
         $Stack = FAR::stack();
-        $this->assertInstanceOf('rmrevin\yii\fontawesome\component\Stack', $Stack);
+        $this->assertInstanceOf('micheleraso\yii\fontawesome\component\Stack', $Stack);
     }
 
     public function testStackOutput()

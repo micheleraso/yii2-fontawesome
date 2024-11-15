@@ -1,17 +1,17 @@
 <?php
 /**
  * TestCase.php
- * @author Revin Roman
- * @link https://rmrevin.ru
+ * @author Michele Raso
+ * @link httpw://www.micheleraso.com
  */
 
-namespace rmrevin\yii\fontawesome\tests\unit;
+namespace micheleraso\yii\fontawesome\tests\unit;
 
 use yii\helpers\ArrayHelper;
 
 /**
  * Class TestCase
- * @package rmrevin\yii\fontawesome\tests\unit
+ * @package micheleraso\yii\fontawesome\tests\unit
  * This is the base class for all yii framework unit tests.
  */
 abstract class TestCase extends \PHPUnit\Framework\TestCase

@@ -1,3 +1,7 @@
+2024-11-15 - 3.8.0
+------------------
+* `Font Awesome` updated to version `5.15.4`.
+
 2021-01-13 - 3.7.0
 ------------------
 * `Font Awesome` updated to version `5.15.1`.
@@ -30,8 +34,8 @@
 * Refactoring of asset bundles.
 * Remove bower-asset from `composer.json`
 * These classes are now deprecated:
-    * `rmrevin\yii\fontawesome\AssetBundle`
-    * `rmrevin\yii\fontawesome\cdn\AssetBundle`
+    * `micheleraso\yii\fontawesome\AssetBundle`
+    * `micheleraso\yii\fontawesome\cdn\AssetBundle`
 * Update readme.
 * Update tests.
 
@@ -44,21 +48,21 @@
 -------------------
 * `Font Awesome` updated to version `5.0`.
 * These class are now deprecated:
-    * `rmrevin\yii\fontawesome\FA` use `...\fontawesome\FAB`,  `...\fontawesome\FAL`,  `...\fontawesome\FAR`, `...\fontawesome\FAS`.
+    * `micheleraso\yii\fontawesome\FA` use `...\fontawesome\FAB`,  `...\fontawesome\FAL`,  `...\fontawesome\FAR`, `...\fontawesome\FAS`.
 * These deprecated properties and methods are now removed:
-    * `rmrevin\yii\fontawesome\component\Icon::$defaultTag`
-    * `rmrevin\yii\fontawesome\component\Icon::$tag`
-    * `rmrevin\yii\fontawesome\component\Icon::tag()`
-    * `rmrevin\yii\fontawesome\component\Icon::render()`
-    * `rmrevin\yii\fontawesome\component\Stack::$defaultTag`
-    * `rmrevin\yii\fontawesome\component\Stack::$tag`
-    * `rmrevin\yii\fontawesome\component\Stack::tag()`
-    * `rmrevin\yii\fontawesome\component\Stack::render()`
-    * `rmrevin\yii\fontawesome\component\UnorderedList::$defaultTag`
-    * `rmrevin\yii\fontawesome\component\UnorderedList::$tag`
-    * `rmrevin\yii\fontawesome\component\UnorderedList::tag()`
-    * `rmrevin\yii\fontawesome\component\UnorderedList::render()`
-    * `rmrevin\yii\fontawesome\FA::getConstants()`
+    * `micheleraso\yii\fontawesome\component\Icon::$defaultTag`
+    * `micheleraso\yii\fontawesome\component\Icon::$tag`
+    * `micheleraso\yii\fontawesome\component\Icon::tag()`
+    * `micheleraso\yii\fontawesome\component\Icon::render()`
+    * `micheleraso\yii\fontawesome\component\Stack::$defaultTag`
+    * `micheleraso\yii\fontawesome\component\Stack::$tag`
+    * `micheleraso\yii\fontawesome\component\Stack::tag()`
+    * `micheleraso\yii\fontawesome\component\Stack::render()`
+    * `micheleraso\yii\fontawesome\component\UnorderedList::$defaultTag`
+    * `micheleraso\yii\fontawesome\component\UnorderedList::$tag`
+    * `micheleraso\yii\fontawesome\component\UnorderedList::tag()`
+    * `micheleraso\yii\fontawesome\component\UnorderedList::render()`
+    * `micheleraso\yii\fontawesome\FA::getConstants()`
 
 2017-01-11 - 2.17.1
 -------------------
@@ -69,29 +73,29 @@
 * `Font Awesome` updated to version `4.7`.
 * Update minimum php to `5.5`
 * These deprecated classes are now removed:
-    * `rmrevin\yii\fontawesome\CDNAssetBundle`
+    * `micheleraso\yii\fontawesome\CDNAssetBundle`
 * These deprecated methods are now removed:
-    * `rmrevin\yii\fontawesome\component\Icon::ul`
-    * `rmrevin\yii\fontawesome\component\Icon::fixed_width`
-    * `rmrevin\yii\fontawesome\component\Icon::pull_left`
-    * `rmrevin\yii\fontawesome\component\Icon::pull_right`
-* In method `rmrevin\yii\fontawesome\component\UnorderedList::item` changed interface (removed `$icon` param).
+    * `micheleraso\yii\fontawesome\component\Icon::ul`
+    * `micheleraso\yii\fontawesome\component\Icon::fixed_width`
+    * `micheleraso\yii\fontawesome\component\Icon::pull_left`
+    * `micheleraso\yii\fontawesome\component\Icon::pull_right`
+* In method `micheleraso\yii\fontawesome\component\UnorderedList::item` changed interface (removed `$icon` param).
 * These directories are now deprecated:
     * `./assets`
 * These fields and methods are now deprecated:
-    * `rmrevin\yii\fontawesome\component\Icon::$defaultTag`
-    * `rmrevin\yii\fontawesome\component\Icon::$tag`
-    * `rmrevin\yii\fontawesome\component\Icon::tag()`
-    * `rmrevin\yii\fontawesome\component\Icon::render()`
-    * `rmrevin\yii\fontawesome\component\Stack::$defaultTag`
-    * `rmrevin\yii\fontawesome\component\Stack::$tag`
-    * `rmrevin\yii\fontawesome\component\Stack::tag()`
-    * `rmrevin\yii\fontawesome\component\Stack::render()`
-    * `rmrevin\yii\fontawesome\component\UnorderedList::$defaultTag`
-    * `rmrevin\yii\fontawesome\component\UnorderedList::$tag`
-    * `rmrevin\yii\fontawesome\component\UnorderedList::tag()`
-    * `rmrevin\yii\fontawesome\component\UnorderedList::render()`
-* Refactoring class `rmrevin\yii\fontawesome\component\UnorderedList`.
+    * `micheleraso\yii\fontawesome\component\Icon::$defaultTag`
+    * `micheleraso\yii\fontawesome\component\Icon::$tag`
+    * `micheleraso\yii\fontawesome\component\Icon::tag()`
+    * `micheleraso\yii\fontawesome\component\Icon::render()`
+    * `micheleraso\yii\fontawesome\component\Stack::$defaultTag`
+    * `micheleraso\yii\fontawesome\component\Stack::$tag`
+    * `micheleraso\yii\fontawesome\component\Stack::tag()`
+    * `micheleraso\yii\fontawesome\component\Stack::render()`
+    * `micheleraso\yii\fontawesome\component\UnorderedList::$defaultTag`
+    * `micheleraso\yii\fontawesome\component\UnorderedList::$tag`
+    * `micheleraso\yii\fontawesome\component\UnorderedList::tag()`
+    * `micheleraso\yii\fontawesome\component\UnorderedList::render()`
+* Refactoring class `micheleraso\yii\fontawesome\component\UnorderedList`.
 
 2016-08-31 - 2.16.1
 -------------------
@@ -149,7 +153,7 @@
 
 2015-06-19 - 2.10.2
 -------------------
-* `CDNAssetBundle` is now deprecated. Use `rmrevin\yii\fontawesome\cdn\AssetBundle`.
+* `CDNAssetBundle` is now deprecated. Use `micheleraso\yii\fontawesome\cdn\AssetBundle`.
 * Refactoring.
 
 2015-05-09 - 2.10.1

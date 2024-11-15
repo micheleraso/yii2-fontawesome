@@ -1,20 +1,20 @@
 <?php
 /**
  * Icon.php
- * @author Revin Roman
- * @link https://rmrevin.ru
+ * @author Michele Raso
+ * @link httpw://www.micheleraso.com
  */
 
-namespace rmrevin\yii\fontawesome\component;
+namespace micheleraso\yii\fontawesome\component;
 
-use rmrevin\yii\fontawesome\FontAwesome;
+use micheleraso\yii\fontawesome\FontAwesome;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 
 /**
  * Class Icon
- * @package rmrevin\yii\fontawesome\component
+ * @package micheleraso\yii\fontawesome\component
  */
 class Icon
 {
@@ -52,7 +52,7 @@ class Icon
     }
 
     /**
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function inverse()
@@ -61,7 +61,7 @@ class Icon
     }
 
     /**
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function spin()
@@ -70,7 +70,7 @@ class Icon
     }
 
     /**
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function pulse()
@@ -79,7 +79,7 @@ class Icon
     }
 
     /**
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function fixedWidth()
@@ -88,7 +88,7 @@ class Icon
     }
 
     /**
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function li()
@@ -97,7 +97,7 @@ class Icon
     }
 
     /**
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function border()
@@ -106,7 +106,7 @@ class Icon
     }
 
     /**
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function pullLeft()
@@ -115,7 +115,7 @@ class Icon
     }
 
     /**
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function pullRight()
@@ -125,7 +125,7 @@ class Icon
 
     /**
      * @param string $value
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function size($value)
@@ -158,7 +158,7 @@ class Icon
 
     /**
      * @param string $value
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function rotate($value)
@@ -178,7 +178,7 @@ class Icon
 
     /**
      * @param string $value
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      */
     public function flip($value)
@@ -200,7 +200,7 @@ class Icon
      * @param string $class
      * @param bool $condition
      * @param string|bool $throw
-     * @return \rmrevin\yii\fontawesome\component\Icon
+     * @return \micheleraso\yii\fontawesome\component\Icon
      * @throws \yii\base\InvalidConfigException
      * @codeCoverageIgnore
      */

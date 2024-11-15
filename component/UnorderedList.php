@@ -1,19 +1,19 @@
 <?php
 /**
  * UnorderedList.php
- * @author Revin Roman
- * @link https://rmrevin.com
+ * @author Michele Raso
+ * @link https://www.micheleraso.com
  */
 
-namespace rmrevin\yii\fontawesome\component;
+namespace micheleraso\yii\fontawesome\component;
 
-use rmrevin\yii\fontawesome\FontAwesome;
+use micheleraso\yii\fontawesome\FontAwesome;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 
 /**
  * Class UnorderedList
- * @package rmrevin\yii\fontawesome\component
+ * @package micheleraso\yii\fontawesome\component
  */
 class UnorderedList
 {
@@ -57,7 +57,7 @@ class UnorderedList
     /**
      * @param string $label
      * @param array $options
-     * @return \rmrevin\yii\fontawesome\component\UnorderedList
+     * @return \micheleraso\yii\fontawesome\component\UnorderedList
      */
     public function item($label, $options = [])
     {

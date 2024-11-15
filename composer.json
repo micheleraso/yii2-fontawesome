@@ -1,5 +1,5 @@
 {
-  "name": "rmrevin/yii2-fontawesome",
+  "name": "micheleraso/yii2-fontawesome",
   "description": "Asset Bundle for Yii2 with Font Awesome",
   "keywords": [
     "yii",
@@ -12,19 +12,19 @@
   "license": "MIT",
   "minimum-stability": "stable",
   "support": {
-    "issues": "https://github.com/rmrevin/yii2-fontawesome/issues",
-    "source": "https://github.com/rmrevin/yii2-fontawesome"
+    "issues": "https://github.com/micheleraso/yii2-fontawesome/issues",
+    "source": "https://github.com/micheleraso/yii2-fontawesome"
   },
   "authors": [
     {
-      "name": "Revin Roman",
-      "email": "roman@rmrevin.com",
-      "homepage": "https://rmrevin.com/"
+      "name": "Michele Raso",
+      "email": "dev@micheleraso.com",
+      "homepage": "https://www.micheleraso.com/"
     }
   ],
   "require": {
     "php": ">=5.4.0",
-    "fortawesome/font-awesome": "^5.15.0",
+    "fortawesome/font-awesome": "^5.15.4",
     "yiisoft/yii2": "^2.0.0"
   },
   "require-dev": {
@@ -34,7 +34,7 @@
   },
   "autoload": {
     "psr-4": {
-      "rmrevin\\yii\\fontawesome\\": ""
+      "micheleraso\\yii\\fontawesome\\": ""
     }
   },
   "extra": {

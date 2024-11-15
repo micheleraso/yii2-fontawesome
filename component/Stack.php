@@ -1,19 +1,19 @@
 <?php
 /**
  * Stack.php
- * @author Revin Roman
- * @link https://rmrevin.ru
+ * @author Michele Raso
+ * @link httpw://www.micheleraso.com
  */
 
-namespace rmrevin\yii\fontawesome\component;
+namespace micheleraso\yii\fontawesome\component;
 
-use rmrevin\yii\fontawesome\FontAwesome;
+use micheleraso\yii\fontawesome\FontAwesome;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 
 /**
  * Class Stack
- * @package rmrevin\yii\fontawesome\component
+ * @package micheleraso\yii\fontawesome\component
  */
 class Stack
 {
@@ -87,7 +87,7 @@ class Stack
     /**
      * @param string|Icon $icon
      * @param array $options
-     * @return \rmrevin\yii\fontawesome\component\Stack
+     * @return \micheleraso\yii\fontawesome\component\Stack
      */
     public function icon($icon, $options = [])
     {
@@ -103,7 +103,7 @@ class Stack
     /**
      * @param string $text
      * @param array $options
-     * @return \rmrevin\yii\fontawesome\component\Stack
+     * @return \micheleraso\yii\fontawesome\component\Stack
      */
     public function text($text = '', $options = [])
     {
@@ -119,7 +119,7 @@ class Stack
     /**
      * @param string|Icon $icon
      * @param array $options
-     * @return \rmrevin\yii\fontawesome\component\Stack
+     * @return \micheleraso\yii\fontawesome\component\Stack
      */
     public function on($icon, $options = [])
     {
